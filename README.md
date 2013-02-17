@@ -7,9 +7,7 @@ designprincipl.es
 ### To-do
 
 * Add more principles
-* Add #anchor links for each principle
 * Study mode (hide descriptions)
-* Test cross browser
 * Up/Down arrows
 * Back to top
 
