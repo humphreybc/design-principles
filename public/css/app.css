@@ -51,7 +51,7 @@ a:hover {
 h1 {
   color: #0099ec;
   margin: 0px 0px 20px;
-  font-size: 1.8em;
+  font-size: 2em;
   line-height: 1em;
   padding-bottom: 10px;
   border-bottom: 5px solid #f7f6f5;
@@ -78,12 +78,12 @@ h1 b {
   font-size: 0.9em;
 }
 .principles {
-  margin: 600px 0px 600px;
+  margin: 250px 0px;
   list-style-type: none;
   padding: 0px;
 }
 .principle {
-  margin: 10px 0px 600px;
+  margin: 10px 0px 200px;
   position: relative;
   color: #aaa;
   overflow: hidden;
