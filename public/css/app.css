@@ -77,6 +77,9 @@ h1 b {
   text-transform: lowercase;
   font-size: 0.9em;
 }
+.meta #share {
+  margin-bottom: 40px;
+}
 .principles {
   margin: 250px 0px;
   list-style-type: none;

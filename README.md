@@ -12,7 +12,6 @@ designprincipl.es
 * Test cross browser
 * Up/Down arrows
 * Back to top
-* Add share on Twitter, FB etc buttons
 
 ### Dependencies
 
