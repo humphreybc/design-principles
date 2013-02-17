@@ -86,6 +86,8 @@ h1 b {
   margin: 10px 0px 600px;
   position: relative;
   color: #aaa;
+  overflow: hidden;
+  clear: both;
 }
 .principle h3 {
   color: #0099ec;
@@ -93,6 +95,8 @@ h1 b {
   margin: 0px 0px 10px;
   padding: 0px;
   font-weight: normal;
+  float: left;
+  max-width: 80%;
 }
 .principle h3 a:hover {
   color: #0088d3;
@@ -102,12 +106,12 @@ h1 b {
   margin: 0px;
   padding: 10px 0px;
   color: #333;
+  float: left;
 }
 .principle .icon-earth {
-  position: absolute;
-  right: 0px;
-  top: 0.55em;
+  margin-top: 0.55em;
   font-size: 0.6em;
+  float: right;
 }
 @media screen and (min-width: 600px) {
   body {
