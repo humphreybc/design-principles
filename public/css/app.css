@@ -38,7 +38,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 150px auto;
+  margin: 20px auto 150px;
   -webkit-font-smoothing: antialiased;
 }
 a {
@@ -116,6 +116,7 @@ h1 b {
 @media screen and (min-width: 600px) {
   body {
     width: 500px;
+    margin: 150px auto;
     font-size: 38px;
   }
 }
