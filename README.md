@@ -10,6 +10,8 @@ designprincipl.es
 * Add #anchor links for each principle
 * Study mode (hide descriptions)
 * Test cross browser
+* Up/Down arrows
+* Back to top
 
 ### Dependencies
 
