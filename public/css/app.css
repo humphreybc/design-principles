@@ -31,10 +31,10 @@
 body {
   font-family: 'Source Sans Pro', 'Lato', 'Helvetica Neue', Arial, sans-serif;
   color: #333;
-  font-size: 38px;
+  font-size: 42px;
   font-weight: 400;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
