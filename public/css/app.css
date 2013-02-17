@@ -1,0 +1,128 @@
+body {
+  font-family: 'Source Sans Pro', 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  font-size: 38px;
+  font-weight: 400;
+  width: 100%;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 150px auto;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #0099ec;
+}
+h1 {
+  color: #0099ec;
+  margin: 0px 0px 20px;
+  font-size: 1.8em;
+  line-height: 1em;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #f7f6f5;
+  font-weight: 300;
+  letter-spacing: -0.05em;
+}
+h1 b {
+  font-weight: 400;
+}
+.meta h2 {
+  margin: -10px 0px 15px;
+  font-weight: 400;
+  font-size: 0.4em;
+  color: #aaa;
+  text-transform: uppercase;
+}
+.meta h2 a .icon-twitter {
+  margin-left: 5px;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.meta i {
+  text-transform: lowercase;
+  font-size: 0.9em;
+}
+.principles {
+  margin: 600px 0px 600px;
+  list-style-type: none;
+  padding: 0px;
+}
+.principle {
+  margin: 10px 0px 600px;
+  position: relative;
+  color: #aaa;
+}
+.principle h3 {
+  color: #0099ec;
+  font-size: 1em;
+  margin: 0px 0px 10px;
+  padding: 0px;
+  font-weight: normal;
+}
+.principle h3 a:hover {
+  color: #0088d3;
+}
+.principle p {
+  border-top: 5px solid #f7f6f5;
+  margin: 0px;
+  padding: 10px 0px;
+  color: #333;
+}
+.principle .icon-earth {
+  position: absolute;
+  right: 0px;
+  top: 0.55em;
+  font-size: 0.6em;
+}
+@media screen and (min-width: 600px) {
+  body {
+    width: 500px;
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 900px) {
+  body {
+    width: 800px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    width: 1000px;
+    font-size: 54px;
+  }
+}
+@font-face {
+  font-family: 'entypo';
+  src: url("../../icons/entypo.eot");
+  src: url("../../icons/entypo.eot?#iefix") format('embedded-opentype'), url("../../icons/entypo.woff") format('woff'), url("../../icons/entypo.ttf") format('truetype'), url("../../icons/entypo.svg#entypo") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon-earth:before,
+.icon-link:before,
+.icon-cog:before,
+.icon-twitter:before {
+  font-family: 'entypo';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-earth:before {
+  content: "\e000";
+}
+.icon-link:before {
+  content: "\e001";
+}
+.icon-cog:before {
+  content: "\e002";
+}
+.icon-twitter:before {
+  content: "\e003";
+}

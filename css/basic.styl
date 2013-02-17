@@ -1,0 +1,104 @@
+// Some global stuff
+
+body
+  font-family primaryFonts
+  color black
+  font-size baseFontSize
+  font-weight 400
+  width 100%
+  padding 20px
+  box-sizing border-box
+  margin 150px auto
+  -webkit-font-smoothing antialiased
+
+a
+  text-decoration none
+  color inherit
+
+  &:hover
+    color blue
+
+// The header
+
+h1
+  color blue
+  margin 0px 0px 20px
+  font-size 1.8em
+  line-height 1em
+  padding-bottom 10px
+  border-bottom 5px solid lightGray
+  font-weight 300
+  letter-spacing -0.05em
+
+  b
+    font-weight 400
+
+.meta 
+
+  h2
+    margin -10px 0px 15px
+    font-weight 400
+    font-size 0.4em
+    color gray
+    text-transform uppercase
+
+    a .icon-twitter
+      margin-left 5px
+      vertical-align middle
+      font-size fontSmall
+
+  i
+    text-transform lowercase
+    font-size 0.9em
+
+// Principles container (ul)
+
+.principles
+  margin 600px 0px 600px
+  list-style-type none
+  padding 0px
+
+// Each principle (li)
+
+.principle
+  margin 10px 0px 600px
+  position relative
+  color gray
+
+  h3
+    color blue
+    font-size 1em
+    margin 0px 0px 10px
+    padding 0px
+    font-weight normal
+    
+    a:hover
+      color darken(blue, 5)
+
+  p
+    border-top 5px solid lightGray
+    margin 0px
+    padding 10px 0px
+    color black
+
+  .icon-earth
+    position absolute
+    right 0px
+    top 0.55em
+    font-size 0.6em
+
+// Responsive
+
+@media screen and (min-width: 600px)
+  body
+    width 500px
+    font-size 42px
+
+@media screen and (min-width: 900px)
+  body
+    width 800px
+
+@media screen and (min-width: 1200px)
+  body
+    width 1000px
+    font-size 54px
